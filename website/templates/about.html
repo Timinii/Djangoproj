@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} About Us {% endblock %}
+{% block content %}
+
+
+      <div class="container">
+        <div class="page-banner">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-md-6">
+              <nav aria-label="Breadcrumb">
+                <ul
+                  class="breadcrumb justify-content-center py-0 bg-transparent"
+                >
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">About</li>
+                </ul>
+              </nav>
+              <h1 class="text-center">About Us</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 py-3">
+            <h2 class="title-section">
+              The number #1 Code Mentorship Platform
+            </h2>
+            <div class="divider"></div>
+
+            <p>
+              Say I wanna leave you in the morning but I need you now.. yeah,
+              yeah I find you I give you all you needing I know you what you
+              like, I feel it comin' Time is of the essence I tried to teach you
+              but I might need some lessons..
+            </p>
+            <p>
+              I need to give it all I tried to leave but I can't I don't know
+              why, you're the one Turn me out of my mind
+            </p>
+            <p>
+              You don't need no other body You don't need no other body Only you
+              fi hold my body Only you fi hold my body You don't need no other
+              body.
+            </p>
+          </div>
+          <div class="col-lg-6 py-3">
+            <div class="img-fluid py-3 text-center">
+              <img src="{% static 'website/img/about_frame.png' %}" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
